@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Site</title>
-    <link>https://hopesaccount.github.io/tags/</link>
-    <description>Recent content in Tags on Site</description>
+    <title>Tags on 蒿蚝好昊</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on 蒿蚝好昊</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 05 Jun 2020 20:14:05 +0800</lastBuildDate>
     
-	<atom:link href="https://hopesaccount.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>单脉冲</title>
+      <link>/tags/%E5%8D%95%E8%84%89%E5%86%B2/</link>
+      <pubDate>Fri, 05 Jun 2020 20:14:05 +0800</pubDate>
+      
+      <guid>/tags/%E5%8D%95%E8%84%89%E5%86%B2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>剑术手稿翻译</title>
+      <link>/tags/%E5%89%91%E6%9C%AF%E6%89%8B%E7%A8%BF%E7%BF%BB%E8%AF%91/</link>
+      <pubDate>Fri, 05 Jun 2020 19:27:21 +0800</pubDate>
+      
+      <guid>/tags/%E5%89%91%E6%9C%AF%E6%89%8B%E7%A8%BF%E7%BF%BB%E8%AF%91/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

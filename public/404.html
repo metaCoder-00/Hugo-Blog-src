@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="zh-cn">
   <head>
     
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Hugo 0.72.0 with theme Tranquilpeak 0.4.8-BETA">
-<meta name="author" content="">
+<meta name="author" content="蒿蚝好昊">
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="Meta coder space">
 
 
-<meta property="og:description" content="">
+<meta property="og:description" content="Meta coder space">
 <meta property="og:type" content="website">
 <meta property="og:title" content="404 Page not found">
 <meta name="twitter:title" content="404 Page not found">
-<meta property="og:url" content="https://hopesaccount.github.io/404.html">
-<meta property="twitter:url" content="https://hopesaccount.github.io/404.html">
-<meta property="og:site_name" content="Site">
-<meta property="og:description" content="">
-<meta name="twitter:description" content="">
-<meta property="og:locale" content="en">
+<meta property="og:url" content="/404.html">
+<meta property="twitter:url" content="/404.html">
+<meta property="og:site_name" content="蒿蚝好昊">
+<meta property="og:description" content="Meta coder space">
+<meta name="twitter:description" content="Meta coder space">
+<meta property="og:locale" content="zh-cn">
 
 
 <meta name="twitter:card" content="summary">
@@ -35,6 +35,9 @@
 
 
 
+  <meta property="og:image" content="https://cdn.jsdelivr.net/gh/metaCoder-00/Blog@master/Blog-cover/profile.jpeg">
+  <meta property="twitter:image" content="https://cdn.jsdelivr.net/gh/metaCoder-00/Blog@master/Blog-cover/profile.jpeg">
+
 
     <title>404 Page not found</title>
 
@@ -43,7 +46,7 @@
 
     
 
-    <link rel="canonical" href="https://hopesaccount.github.io/404.html">
+    <link rel="canonical" href="/404.html">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -75,9 +78,25 @@
       <i class="fa fa-remove"></i>
     </div>
     
-    <h4 id="about-card-name"></h4>
+      <img id="about-card-picture" src="https://cdn.jsdelivr.net/gh/metaCoder-00/Blog@master/Blog-cover/profile.jpeg" alt="作者的图片" />
+    
+    <h4 id="about-card-name">蒿蚝好昊</h4>
+    
+      <div id="about-card-bio">蒿蚝好昊的<strong>胡扯</strong>频道</div>
     
     
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        三流键客
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        成都
+      </div>
     
   </div>
 </div>
@@ -85,9 +104,15 @@
     
 
     
+  
+    <div id="cover" style="background-image:url('https://cdn.jsdelivr.net/gh/metaCoder-00/Blog@master/Blog-cover/weiss.png');"></div>
+  
+
 
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
 
@@ -108,6 +133,18 @@ function updateMinWidth() {
   var w3 = getComputedStyle(sidebar).getPropertyValue("left");
   main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
 }
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
 </script>
 
 
