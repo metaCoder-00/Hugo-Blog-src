@@ -1,0 +1,4 @@
+baseURL = "https://hopesaccount.github.io/"
+languageCode = "en-us"
+title = "Site"
+theme = "tranquilpeak"
